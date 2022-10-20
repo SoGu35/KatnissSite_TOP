@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,200&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+    color: paleturquoise;
+    font-size: 24px;
+}
+.top_con{
+    background-color: #1F2937;
+    height: 70vh;
+    width: 100%;
+}
+#logo{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 1px solid grey
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vw;
+}
+header .top_nav ul{
+    display: flex;
+    list-style: square;
+    gap: 3vw;
+}
+header .top_nav li{
+    list-style: none;
+}
+
+header .top_nav a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.top_con2{
+    display:flex;
+    justify-content:space-between;
+    margin: 0 5vw;
+}
+.top_text{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 40vw;
+    
+}
+#big_img{
+    display:flex;
+    height: 55vh;
+    width: 30vw;
+    border-radius: 10px;
+}
+
+#bold_text1{
+    display:flex;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    white-space: nowrap;
+    padding: 1vh 0;
+}
+#small_text1{
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 1.5vh 0;
+}
+#signup{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    padding: 1vh 3vw;
+    border-radius: 15px;
+    font-weight: bold;
+    border: none;
+}
+#signup:hover{
+    background-color: #2576f8;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
